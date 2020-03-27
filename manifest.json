@@ -1,0 +1,21 @@
+{
+  "name": "Eksi Navigator",
+  "version": "1.0.0",
+  "description": "Navigate between pages with arrow keys in eksisozluk.",
+  "author": "Ridvan Altun",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "page_action": {
+    "default_icon": "images/passive.png",
+    "default_title": "PASSIVE"
+  },
+  "manifest_version": 2,
+  "permissions": ["webNavigation", "*://eksisozluk.com/*"]
+}
